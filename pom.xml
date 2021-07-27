@@ -26,6 +26,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-G22C68C-releases</name>
+        <url>http://localhost:8081/artifactory/k-jfrog</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>DESKTOP-G22C68C-snapshots</name>
+        <url>http://localhost:8081/artifactory/k-jfrog</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
